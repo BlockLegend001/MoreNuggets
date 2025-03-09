@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_charcoal_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "morenuggets:charcoal_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "morenuggets:charcoal_from_charcoal_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_charcoal_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morenuggets:charcoal_from_charcoal_nugget"
+    ]
+  }
+}
