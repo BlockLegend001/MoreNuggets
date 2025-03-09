@@ -1,0 +1,40 @@
+[12:28:50] [main/INFO]: ModLauncher running: args [--mod, morenuggets, --all, --output, D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 5.0.6, --fml.mcVersion, 1.21.3, --fml.neoForgeVersion, 21.3.57, --fml.neoFormVersion, 20241023.131943]
+[12:28:50] [main/INFO]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[12:28:50] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[12:28:50] [main/WARN]: Configuration file D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[12:28:50] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[12:28:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[12:28:50] [main/WARN]: Configuration file D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[12:28:50] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.57\neoforge-21.3.57.jar])]
+[12:28:50] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.57\neoforge-21.3.57.jar])]
+[12:28:50] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[12:28:50] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: userdev mods and services, reader: mod manifest]
+[12:28:50] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-17.0.790.jar" [locator: userdev mods and services, reader: mod manifest]
+[12:28:50] [main/INFO]: Found mod file "cloth-config-neoforge-16.0.141-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
+[12:28:50] [main/INFO]: Found mod file "architectury-neoforge-14.0.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[12:28:51] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[12:28:51] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[12:28:51] [main/INFO]: Found 1 dependencies adding them to mods collection
+[12:28:51] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.3.57.jar" [parent: neoforge-21.3.57.jar, locator: jarinjar, reader: mod manifest]
+[12:28:51] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 14.0.3 (architectury)
+		Cloth Config v16 API 16.0.141 (cloth_config)
+		Minecraft 1.21.3 (minecraft)
+		MoreNuggets 1.21.3-0.1 (morenuggets)
+		NeoForge 21.3.57 (neoforge)
+		Roughly Enough Items (REI) 17.0.790 (roughlyenoughitems)
+[12:28:51] [main/INFO]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --mod, morenuggets, --all, --output, D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\More Nuggets\NEOFORGE\1.21.3\src\main\resources, --assetIndex, asset-index]
+[06dic2024 12:28:52.478] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [morenuggets]
+[06dic2024 12:28:52.492] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06dic2024 12:28:58.772] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.57, for MC 1.21.3
+[06dic2024 12:28:59.324] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/More%20Nuggets/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.57/neoforge-21.3.57.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[06dic2024 12:28:59.324] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/More%20Nuggets/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.57/neoforge-21.3.57.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[06dic2024 12:28:59.489] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[06dic2024 12:28:59.798] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 309 ms
+[06dic2024 12:28:59.799] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: morenuggets
+[06dic2024 12:28:59.814] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: morenuggets finished after 14 ms
+[06dic2024 12:28:59.814] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 325 ms
+[06dic2024 12:28:59.822] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 76, old count: 76, new count: 77, removed stale: 0, written: 34

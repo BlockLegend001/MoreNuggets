@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": "minecraft:diamond_chestplate",
+  "result": {
+    "count": 1,
+    "id": "morenuggets:diamond_nugget"
+  }
+}
