@@ -1,0 +1,80 @@
+[28set2024 20:40:53.266] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, morenuggets, --all, --output, D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\src\generated\resources, --existing, D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\src\main\resources]
+[28set2024 20:40:53.268] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[28set2024 20:40:53.270] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[28set2024 20:40:53.462] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[28set2024 20:40:53.601] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[28set2024 20:40:54.914] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28set2024 20:40:55.753] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, morenuggets, --all, --output, D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\src\generated\resources, --existing, D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\src\main\resources]
+[28set2024 20:41:01.886] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.16, for MC 1.21.1 with MCP 20240808.132146
+[28set2024 20:41:01.886] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.16 Initialized
+[28set2024 20:41:01.928] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[28set2024 20:41:02.092] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSchema/]: Failed to save config file: 'D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\run-data\config\jei\jei-debug.ini'
+java.nio.file.FileSystemException: D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\run-data\config\jei\14582561754461892931.tmp: Impossibile accedere al file. Il file è utilizzato da un altro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273) ~[?:?]
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:104) ~[?:?]
+	at java.base/java.nio.file.Files.delete(Files.java:1152) ~[?:?]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.core.util.PathUtil.writeUsingTempFile(PathUtil.java:25) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSerializer.save(ConfigSerializer.java:130) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSchema.save(ConfigSchema.java:65) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSchema.register(ConfigSchema.java:57) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.library.startup.JeiStarter.<init>(JeiStarter.java:80) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItemsClient.<init>(JustEnoughItemsClient.java:59) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItemsClientSafeRunner.registerClient(JustEnoughItemsClientSafeRunner.java:19) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.1-52.0.16/net.minecraftforge.fml.DistExecutor.safeRunWhenOn(DistExecutor.java:123) ~[fmlcore-1.21.1-52.0.16.jar:1.0]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItems.<init>(JustEnoughItems.java:32) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.1-52.0.16/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:71) ~[javafmllanguage-1.21.1-52.0.16.jar!/:52.0.16]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.1-52.0.16/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.21.1-52.0.16.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[28set2024 20:41:02.132] [modloading-worker-0/ERROR] [mezz.jei.common.config.file.ConfigSchema/]: Failed to save config file: 'D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\run-data\config\jei\jei-client.ini'
+java.nio.file.FileSystemException: D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\run-data\config\jei\2486622787463175836.tmp -> D:\Programmazione\Mod\More Nuggets\FORGE\1.21.1\run-data\config\jei\jei-client.ini: Impossibile accedere al file. Il file è utilizzato da un altro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:328) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.core.util.PathUtil.moveAtomicReplace(PathUtil.java:33) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.core.util.PathUtil.writeUsingTempFile(PathUtil.java:22) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSerializer.save(ConfigSerializer.java:130) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSchema.save(ConfigSchema.java:65) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.file.ConfigSchema.register(ConfigSchema.java:57) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.common.config.JeiClientConfigs.register(JeiClientConfigs.java:31) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.library.startup.JeiStarter.<init>(JeiStarter.java:91) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItemsClient.<init>(JustEnoughItemsClient.java:59) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItemsClientSafeRunner.registerClient(JustEnoughItemsClientSafeRunner.java:19) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.1-52.0.16/net.minecraftforge.fml.DistExecutor.safeRunWhenOn(DistExecutor.java:123) ~[fmlcore-1.21.1-52.0.16.jar:1.0]
+	at TRANSFORMER/jei@19.17.0.192/mezz.jei.forge.JustEnoughItems.<init>(JustEnoughItems.java:32) ~[jei-1.21.1-forge-19.17.0.192.jar:19.17.0.192]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.1-52.0.16/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:71) ~[javafmllanguage-1.21.1-52.0.16.jar!/:52.0.16]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.1-52.0.16/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.21.1-52.0.16.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[28set2024 20:41:02.137] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[28set2024 20:41:02.146] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 7.622 ms
+[28set2024 20:41:02.952] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [morenuggets]
+[28set2024 20:41:03.016] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_official_1.21.1/forge-1.21.1-52.0.16_mapped_official_1.21.1.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[28set2024 20:41:03.016] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_official_1.21.1/forge-1.21.1-52.0.16_mapped_official_1.21.1.jar%230!/data/.mcassetsroot' uses unexpected schema
+[28set2024 20:41:03.171] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[28set2024 20:41:03.653] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 481 ms
+[28set2024 20:41:03.654] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: morenuggets
+[28set2024 20:41:03.667] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: morenuggets finished after 13 ms
+[28set2024 20:41:03.667] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 496 ms
+[28set2024 20:41:03.678] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 76, old count: 0, new count: 77, removed stale: 0, written: 76
