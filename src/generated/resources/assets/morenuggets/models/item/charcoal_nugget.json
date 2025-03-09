@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morenuggets:item/charcoal_nugget"
+  }
+}
