@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "morenuggets",
+  "version": "${version}",
+  "name": "MoreNuggets",
+  "description": "Simple Mod that adds nuggets for all ores with recipes to obtain them.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/morenuggets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.blocklegend001.morenuggets.MoreNuggets"
+    ],
+    "client": [
+      "com.blocklegend001.morenuggets.client.MoreNuggetsClient"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.morenuggets.datagen.DataGenerators"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
