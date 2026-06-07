@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "morenuggets:netherite_pickaxe_to_netherite_nugget",
+  "ingredient": "minecraft:netherite_pickaxe",
+  "result": {
+    "id": "morenuggets:netherite_nugget"
+  }
+}
