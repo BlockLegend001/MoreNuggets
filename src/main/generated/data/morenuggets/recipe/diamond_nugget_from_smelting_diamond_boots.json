@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "morenuggets:diamond_boots_to_diamond_nugget",
+  "ingredient": "minecraft:diamond_boots",
+  "result": {
+    "id": "morenuggets:diamond_nugget"
+  }
+}

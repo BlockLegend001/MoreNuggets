@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "morenuggets:netherite_leggings_to_netherite_nugget",
+  "ingredient": "minecraft:netherite_leggings",
+  "result": {
+    "id": "morenuggets:netherite_nugget"
+  }
+}
